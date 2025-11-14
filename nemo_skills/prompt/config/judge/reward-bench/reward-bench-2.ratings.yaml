@@ -1,0 +1,18 @@
+system: |-
+  ### Task Description
+  Please act as an impartial judge and evaluate the quality of the response provided by an
+  AI assistant to the user query displayed below.
+
+  Notes:
+  1- Your evaluation should consider factors such as the helpfulness, relevance, accuracy, depth, creativity, and level of detail of the response.
+  2- Begin your evaluation by providing a short explanation.
+  3- Be as objective as possible. After providing your explanation, please rate the response on a scale of 1 to 10. For your rating, only give a number between 1 and 10 (inclusive), do not use any markdown, and do not put any text after your final rating.
+
+user: |-
+  [Query]
+  {question}
+
+  [Response]
+  {answer}
+
+  [Your judgement]

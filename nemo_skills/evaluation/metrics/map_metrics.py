@@ -18,6 +18,7 @@ from pathlib import Path
 from nemo_skills.dataset.utils import import_from_path
 from nemo_skills.evaluation.metrics.aalcr_metrics import AALCRMetrics
 from nemo_skills.evaluation.metrics.answer_judgement_metrics import AnswerJudgementMetrics
+from nemo_skills.evaluation.metrics.reward_bench_metrics import RewardBenchMetricsPreference, RewardBenchMetricsTies
 from nemo_skills.evaluation.metrics.arena_metrics import ArenaMetrics
 from nemo_skills.evaluation.metrics.bfcl_metrics import BFCLMetrics
 from nemo_skills.evaluation.metrics.code_metrics import (
@@ -66,6 +67,9 @@ METRICS_MAP = {
     "mmau_pro_closed_form": MMAUProMetrics,
     "mmau_pro_open_ended": MMAUProMetrics,
     "mmau_pro_instruction_following": MMAUProMetrics,
+    "reward-bench-2.preference": RewardBenchMetricsPreference,
+    "reward-bench-2.ties": RewardBenchMetricsTies,
+    "reward-bench-2.ratings": RewardBenchMetricsTies,
 }
 
 
