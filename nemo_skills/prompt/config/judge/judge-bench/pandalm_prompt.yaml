@@ -1,0 +1,13 @@
+user: |-
+   Below are two responses for a given task. The task is defined by the Instruction. Evaluate the responses and generate a reference answer for the task.
+
+   ### Instruction:
+   {question}
+
+   ### Response 1:
+   {answer_a}
+
+   ### Response 2:
+   {answer_b}
+
+   ### Evaluation:

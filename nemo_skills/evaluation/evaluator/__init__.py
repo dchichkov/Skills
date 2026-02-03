@@ -40,6 +40,7 @@ from nemo_skills.evaluation.evaluator.mrcr import eval_mrcr
 from nemo_skills.evaluation.evaluator.ruler import eval_ruler
 from nemo_skills.evaluation.evaluator.scicode import eval_scicode
 from nemo_skills.evaluation.evaluator.rewardbench import eval_rewardbench
+from nemo_skills.evaluation.evaluator.judge_bench import eval_judge_bench
 
 
 EVALUATOR_MAP = {
@@ -59,6 +60,7 @@ EVALUATOR_MAP = {
     "human_eval_infilling": eval_human_eval_infilling,
     "mmau-pro": eval_mmau_pro,
     "rewardbench": eval_rewardbench,
+    "judge-bench": eval_judge_bench,
 }
 
 # Evaluator class mapping, other evaluators can be added here as they're converted to classes

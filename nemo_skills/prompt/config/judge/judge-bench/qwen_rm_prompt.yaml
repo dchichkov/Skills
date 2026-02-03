@@ -1,0 +1,9 @@
+user: |-
+   {question}
+
+response_1: |-
+   {answer_a}
+   
+response_2: |-
+   {answer_b}
+
