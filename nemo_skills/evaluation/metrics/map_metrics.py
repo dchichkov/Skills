@@ -40,6 +40,7 @@ from nemo_skills.evaluation.metrics.ruler_metrics import RulerMetrics
 from nemo_skills.evaluation.metrics.simpleqa_metrics import SimpleQAMetrics
 from nemo_skills.evaluation.metrics.translation_metrics import TranslationMetrics
 from nemo_skills.evaluation.metrics.judge_bench_metrics import JudgeBenchMetrics
+from nemo_skills.evaluation.metrics.rm_bench_metrics import RMBenchMetrics
 
 METRICS_MAP = {
     "math": MathMetrics,
@@ -72,6 +73,7 @@ METRICS_MAP = {
     "reward-bench-2.ties": RewardBenchMetricsTies,
     "reward-bench-2.ratings": RewardBenchMetricsTies,
     "judge-bench": JudgeBenchMetrics,
+    "rm-bench": RMBenchMetrics,
 }
 
 
